@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+notebooks/passwords.py
+__pycache__
+pw.txt
+.DS_Store
