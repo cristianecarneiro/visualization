@@ -11,7 +11,7 @@ The goal of this project is to apply the skills we've developed during Ironhacks
 
 The data used on this presentation was obtained from a full ETL process in a previous project, available [here](https://github.com/cristianecarneiro/ETL).
 
-It refers to two lists of music albums by the Rolling Stone magazine: 1) Top 500 Greatest Albums and 2) 50 Horible Albums by Great Artists. This data was enriched with Spotify data on their artists and tracks. 
+It refers to two lists of music albums by the Rolling Stone magazine: 1) Top 500 Greatest Albums and 2) 50 Horrible Albums by Great Artists. This data was enriched with Spotify data on their artists and tracks. 
 
 ## Visualization  
 
