@@ -23,25 +23,25 @@ The data was interpreted through visualizations using Tableau. To access all cha
 The output of this project is stored in this repository, as follows: 
 
 <details>
-<summary>Slide1</summary>
+<summary>Top 500 albums</summary>
 <br>
 The Rolling Stone magazine has an evolving ranking of the 500 Greatest Albums of all time. This list was published for the first time in 2003 by compiling opinions of 200+ critics. The list of then slightly updated in 2012 (the version we are using) and continued to evolve. 
 </details>
 <br>
 <details>
-<summary>Slide2</summary>
+<summary>Horrible 50 albums</summary>
 <br>
 The magazine has also released an article in 2023 named '50 Genuinely Horrible Albums by Brilliant Artists'. 
 </details>
 <br>
 <details>
-<summary>Slide3</summary>
+<summary>Top 500 albums across time</summary>
 <br>
 If we look how the '500 Greatest Albums' are distributed overtime, we notice most of them were released in the 60's and 70's. This can indicate those were really 'golden years' for music production, or simply a bias from the the critics towards that particular music genre (i.e., rock, blues). It would be interesting to see how this has evolved in the recent list updates. 
 </details>
 <br>
 <details>
-<summary>Slide4</summary>
+<summary>Top 500 albums across artists</summary>
 <br>
 The Rolling Stones, Bob Dylan and The Beatles are the three artists with the most albums in the Top 500 list. For each of those artists, it is interesting to analyse the following metrics: 
 <br>
@@ -56,13 +56,13 @@ By looking into those metrics, we can spot some top artists that are 'undervalue
 </details>
 <br>
 <details>
-<summary>Slide5</summary>
+<summary>Horrible 50 albums across artists</summary>
 <br>
 We can look at the same metrics (i.e., popularity and number of followers) for the artists in the 'horrible albums'. Take into account each artists listed here had one album listed
 </details>
 <br>
 <details>
-<summary>Slide6</summary>
+<summary>Tracks' metrics</summary>
 <br>
 Spotify also provides insteresting metrics at the track level. Here we will analise some metrics (normalized 0-1) from songs from the '550 target albums' from the Rolling Stone magazine, across: 
 <br>
@@ -90,7 +90,7 @@ By playing with the rankings, we can look for 'danceable' songs for a party play
 </details>
 <br>
 <details>
-<summary>Slide7</summary>
+<summary>Jamming vs Paradise City </summary>
 <br>
 As an example exercise, we can compare two songs across those metrics: 'Jamming' by 'Bob Marley' and 'Paradise City' by Guns'n'Roses. 
 <br>
@@ -99,7 +99,7 @@ We can see how 'Jamming' stands out for 'inviting one to dance' and 'being very 
 </details>
 <br>
 <details>
-<summary>Slide8</summary>
+<summary>Bob Marley vs Guns'n'Roses</summary>
 <br>
 If we extend this analysis to the artists of those songs, we can see that 'Bob Marley' is clearly an artists to 'cheer you up' in 'sad days' while 'Guns'n'Roses' should give you an extra 'energy boost' in lazy days 
 </details>
@@ -112,8 +112,6 @@ The final goal of this exercise is to compare ALL tracks within the '500 Greates
 <br>
 As of now, the tracks' database is not completed due to requests restrictions in Spotify's API. This exercise will be completed as soon as we got a full database (6000+ songs!) 
 </details>
-<br>
-<br>
 
 ## Repository files  
 
@@ -121,6 +119,9 @@ As of now, the tracks' database is not completed due to requests restrictions in
 <br>
 <br>
 <li> notebooks: Jupiter notebooks used in the ETL process for extracting, cleaning and preparing the Tableau tables
+<br>
+<br>
+<li> img: Images used in the project 
 
 
 
